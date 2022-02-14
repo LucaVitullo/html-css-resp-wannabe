@@ -1,0 +1,59 @@
+/*----GENERALI-----*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 420px) {
+  .row {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  img {
+    margin-top: 5%;
+    height: 100px;
+    margin-bottom: 5%;
+  }
+  /*----CONTAINER LEZIONI------*/
+  #lezioni {
+    background-color: #f2f2cd;
+  }
+
+  #lezioni .row > .left,
+  #lezioni .row > .right {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+
+  /*-----CONTAINER STEPS-----*/
+  #steps .row > .left {
+    width: 100%;
+  }
+  #steps .row > .central {
+    width: 100%;
+    margin: 5% 0;
+  }
+  #steps .row > .right {
+    width: 100%;
+  }
+
+  /*------- CONTAINER WHY-------*/
+  #why {
+    background-color: #f2f2cd;
+  }
+
+  #why .row > .first {
+    margin: 0;
+  }
+  #why .row > .second {
+    margin: 0;
+  }
+  #why .row > .third {
+    margin: 0;
+  }
+}
